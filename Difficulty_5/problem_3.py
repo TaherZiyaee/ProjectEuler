@@ -3,7 +3,7 @@ factors_list = list()
 
 def factors(n):
     for i in range(2, (n + 1) // 2):
-        if n % i == 0 and is_prime(i):
+        if n % (i*i) == 0 and is_prime(i):
             yield i
     #         factors_list.append(i)
     # return factors_list
