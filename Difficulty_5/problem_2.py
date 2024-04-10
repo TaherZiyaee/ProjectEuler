@@ -1,5 +1,5 @@
 # TODO: Even Fibonacci numbers
-
+# Display all numbers and their sum
 def even_fibo(n):
     a, b = 0, 1
     i = 1

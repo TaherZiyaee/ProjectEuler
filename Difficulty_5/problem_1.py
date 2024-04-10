@@ -1,5 +1,7 @@
 # TODO: Multiples of 3 or 5
 
+# Display all numbers and their sum
+
 lst = []
 for i in range(1000):
     if (i % 3 == 0) or (i % 5 == 0):
